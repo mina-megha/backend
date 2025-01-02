@@ -15,7 +15,6 @@ conn.authenticate().then(()=>{
 const port  = 3000
 
 import router from './routes/index'
-import { error } from 'console';
 app.get("/",(req,res)=>{
 
 })
